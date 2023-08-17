@@ -1,0 +1,23 @@
+Here we are going to create a Static Website on a AWS S3 Bucket.
+------------------>
+Step 1: Sign in to aws console.
+Step 2: Goto S3 in services.
+Step 3: In S3 dashboard click on Create Bucket button.
+Step 4: Give Bucket a name.
+Step 5: In Object Ownership select ACLs disabled option.
+Step 6: Uncheck "Block all public access" & check I acknowledge box.
+Step 7: Click on Create Bucket button.
+Step 8: To proceed, go to the S3 bucket name that you created and click on it. After that, navigate to the Properties tab which can be found at the top of the screen.
+Step 9: Scroll down to the Static website hosting section and click on Edit button.
+Step 10: In the Static website hosting dialog box.
+Step 11: Static website hosting: Select Enable.
+Step 12:	Hosting type: Choose Host a static website.
+Step 13: Index document: Type index.html.
+Step 14:	Error document: Type error.html.
+Step 15: Click on Save Changes.
+Step 16: Now Upload your webpage files : index.html & error.html
+Step 17: Select the uploaded files, click on "Action" Menu, click on "Make public using ACLs" and make the uploaded files public.
+Step 18: Go to the Properties tab of your S3 bucket, and find the Static website hosting section. Copy the link and paste it in browser.
+------------------>
+"Your Your Static Website is Live now on S3 Bucket"
+For Example My Website: http://nikhilstaticwebsite.s3-website.ap-south-1.amazonaws.com/
